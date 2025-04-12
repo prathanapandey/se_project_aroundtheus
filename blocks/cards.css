@@ -1,5 +1,5 @@
 .cards {
-  margin-top: 30px;
+  margin-top: 51px;
 }
 
 .cards__list {
@@ -13,12 +13,14 @@
 
 @media screen and (max-width: 480px) {
   .cards {
-    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
 
   .cards__list {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
     margin: 0;
   }
 }

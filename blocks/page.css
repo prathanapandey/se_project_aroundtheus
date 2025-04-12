@@ -17,12 +17,6 @@
   min-height: 100vh;
 }
 
-@media screen and (max-width: 480px) {
-  .page__section {
-    min-width: 320px;
-  }
-}
-
 @media screen and (max-width: 940px) {
   .page__section {
     max-width: calc(100% - 40px);

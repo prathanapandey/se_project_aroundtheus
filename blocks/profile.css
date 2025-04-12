@@ -41,6 +41,7 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 375px;
+  letter-spacing: 0;
 }
 
 .profile__description {
@@ -61,7 +62,7 @@
   border-radius: 50%;
   object-fit: cover;
   background-position: center;
-  margin-right: 24px;
+  margin-right: 30px;
 }
 
 @media screen and (max-width: 480px) {
