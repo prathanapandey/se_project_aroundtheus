@@ -1,24 +1,37 @@
-# Project 3: Around The U.S.
+# Around the U.S.
 
-### Overview
+This is the third project of the Software Engineering program at TripleTen. This project is basically a responsive webpage created on the basis of provided design specifications.
 
-- Intro
+## Description
+
+This project is a responsive website where all elements are displayed correctly on popular screen sizes. When the screen size (or the width of the browser) changes, the width of the content area also changes. The project has been designed as per the [Figma specifications](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1) provided.
+
+## Tech Stack
+
+- Responsive Design
+- Semantic HTML5
+- Flexbox
+- Grid Layout
+- Media Query
 - Figma
-- Images
 
-**Intro**
+## Folder Structure
 
-Project description video link:
+📦se-project-aroundtheus  
+┣ 📂blocks # CSS files for all blocks
+┣ 📂images # All project's images  
+┣ 📂pages # index.css where all css files are imported  
+┣ 📂vendor # Third party files  
+┣ 📜favicon.ico # favicon  
+┣ 📜index.html # Entry point  
+┗ 📜README.md # Documentation
+
+# Project Video Link:
+
+Screen recording with brief explanation of the project can be accessed from the following link:
 https://photos.app.goo.gl/B2v1jNwxyQSrgrU98
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+# Deployment Link:
 
-**Figma**
-
-- [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-Good luck and have fun!
+The project is deployed to following github link:
+https://prathanapandey.github.io/se_project_aroundtheus/
