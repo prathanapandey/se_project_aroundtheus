@@ -116,4 +116,8 @@
     width: 18px;
     margin-left: 10px;
   }
+
+  .profile__image {
+    margin-right: 0;
+  }
 }
