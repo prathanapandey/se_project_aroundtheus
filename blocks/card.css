@@ -4,11 +4,28 @@
   list-style: none;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
 
 .card__image {
   width: 282px;
   height: 282px;
+}
+
+.card__delete-button {
+  background: transparent url(../images/delete.svg) no-repeat center;
+  position: absolute;
+  cursor: pointer;
+  align-self: self-end;
+  top: 18px;
+  right: 15px;
+  width: 18px;
+  height: 19.3px;
+  border: none;
+}
+
+.card__delete-button:hover {
+  opacity: 0.5;
 }
 
 .card__description {
@@ -41,6 +58,10 @@
   width: 21px;
   height: 18px;
   border: none;
+}
+
+.card__like-button_active {
+  background: transparent url(../images/like-active.svg);
 }
 
 .card__like-button:hover {
