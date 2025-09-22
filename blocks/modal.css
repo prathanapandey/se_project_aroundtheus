@@ -41,12 +41,12 @@
   flex-direction: column;
 }
 
-.image__preview {
+.modal__image-preview {
   max-width: 75vw;
   max-height: 75vh;
 }
 
-.image__preview-title {
+.modal__image-preview-title {
   color: #fff;
   padding-top: 10px;
   max-width: 291px;

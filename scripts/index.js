@@ -48,8 +48,10 @@ const cardDesc = cardAddModal.querySelector("#card-description");
 
 const imagePreviewModal = document.querySelector("#image-modal");
 const imagePreviewCloseBtn = document.querySelector("#close-image-modal");
-const imageElement = imagePreviewModal.querySelector(".image__preview");
-const imageTitle = imagePreviewModal.querySelector(".image__preview-title");
+const imageElement = imagePreviewModal.querySelector(".modal__image-preview");
+const imageTitle = imagePreviewModal.querySelector(
+  ".modal__image-preview-title"
+);
 
 const cardTemplate = document.querySelector("#card-template").content;
 const cardList = document.querySelector(".cards__list");
